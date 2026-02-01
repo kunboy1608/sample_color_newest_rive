@@ -7,8 +7,10 @@ environment:
   sdk: ^3.10.1
 
 dependencies:
+  collection: ^1.19.1
   flutter:
     sdk: flutter
+  rive: 0.13.20
 
 dev_dependencies:
   flutter_test:
@@ -17,4 +19,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
+  assets:
+    - assets/animations/
